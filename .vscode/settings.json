@@ -1,0 +1,19 @@
+{
+  "python.analysis.exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/.*",
+    "**/doc**"
+  ],
+
+  "python.testing.pytestArgs": [
+        "--ignore=your_target_folder"
+  ],
+
+  "files.watcherExclude": {
+        "**/doc/**": true
+    },
+    "search.exclude": {
+        "**/doc/**": true
+    },
+}
